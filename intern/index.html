@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function test()
+        {
+            alert("test");
+        }
+        function validateform(event)
+        {
+           
+            var useName = document.getElementById('username');
+            var pwd = document.getElementById('userpassword');
+            if (userName.value === '')
+            {
+                alert("username cannot be empty");
+                event.preventDefault();
+            }
+            if(pwd.value === '')
+            {
+                alert("password cannaot be empty");
+                event.preventDefault();
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="row">
+        <div class="col">
+            <img src="BIRDS.png" alt="Lovebirds" srcset=""> 
+             <h1>Maecenas mattis egestas</h1>
+            <p>Edum et malesuada fames ac ante ipsum primis in foucibud upsendiss e porta</p>
+            <div class="pagination">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="logo.jpg" alt="logo" srcset="">
+            <h2>Lovebird</h2>
+                <form name="vishu">
+                <h3>Welcome to Lovebirds</h3>
+                <label for="username">Username or email</label><br>
+                <input type="text" id="username" name="username">
+                <br>
+                <label for="userpassword ">password</label><br>
+                <input type="password" id="userpassword" name="userpassword"><br>
+                <a class="forget-passord" href="#">Forget password</a><br>
+                <button class="signin" onclick="test();">Sign in </button>
+                <input type="submit" name="submit" onclick="test();"
+            </form>
+            <div class="ortag">
+                <div class="tag1">
+                    <hr>
+                </div>
+            <div class="tag2">
+                <p>or</p>
+            </div>
+            <div class="tag3">
+                <hr>
+            </div>
+            </div>      
+
+            <div class="google">
+                <img src="logo.jpg" alt="tata" srcset="">
+                <a href="#">sign in with google</a>
+            </div>
+
+            <div class="newacc">
+                <p>New Lovebirds ? </p>
+                <a href="#">Create Account </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

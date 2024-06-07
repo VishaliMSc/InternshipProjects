@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.col:first-child{  
+    background-color: cadetblue;
+    color: white;
+}
+
+.col:nth-child(2){   
+   background-color: white;
+}
+
+
+/* col 1 */
+
+.col:first-child img{
+    width: auto;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+.col:first-child h1{
+    margin-bottom: 30px;
+}
+
+.col:first-child p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-wrap: 20px;
+}
+
+
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pagination div{
+     margin: 5px;
+     padding: 10px;
+     background-color: white;
+     border-radius: 50px;
+     opacity: 0.5;
+}
+.pagination div:first-child{
+     padding: 10px 20px 10px ;
+     opacity: 1;
+}
+
+
+/* col2 */
+
+.col h2{
+    font-family: 'Brush Script MT',cursive;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+form{
+    margin-top: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+
+form h3{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input{
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid black;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.forget-passord{
+    position: absolute;   
+    top:80%;
+    right:0px;
+}
+
+button{
+    padding: 15px ;
+    width: 300px;
+    font-size: 16px;
+    align-self: center;
+    border: none;
+    background-color: rgb(53, 146, 223);
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+.ortag{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tag1, .tag3{
+      
+    flex: 0 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag1 hr, .tag3 hr{
+    margin-top: 8px;
+}
+
+img{
+    width: 26px;
+    height: 26px;
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 60px;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.newacc{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+}
+.newacc a{
+    border-bottom: 1px solid black;
+    color: blueviolet;
+}
