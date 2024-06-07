@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    background-size: cover ;
+    background-position: center ;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-self: unset; space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+}
+
+nav ul li a{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a:hover::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+/* ---------inner pages--------- */
+#inner{
+    padding: 40px 0;
+    color: #ababab;
+}
+.column{
+    disply: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner pages-col-1  img{
+    flex-basis: 35%;
+}
+/*----------portfolio-------*/
+#inner{
+    padding: 40px 0;
+    color: #ababab;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portofolio-col-1 img{
+    flex-basis: 35%;
+}
+/*-----------shop----------*/
+.portofolio-col-1 img{
+    flex-basis: 35%;
+}
+
+.footer{
+   background-color: aqua;
+}
